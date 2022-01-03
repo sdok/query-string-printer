@@ -1,10 +1,10 @@
 
 pipeline {
-    agent { dockerfile true }
+    agent any
     stages {
-        stage('Test') {
+        stage('build') {
             steps {
-                echo "naber"
+                echo "building the project"
             }
         }
     }
