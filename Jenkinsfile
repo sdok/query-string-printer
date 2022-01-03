@@ -5,7 +5,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo "naber"
-                docker ps
             }
         }
     }
